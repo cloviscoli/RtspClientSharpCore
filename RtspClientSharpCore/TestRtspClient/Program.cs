@@ -14,9 +14,9 @@ namespace TestRtspClient
   class Program
   {
     // TODO: Change to your values
-    private const string urlToCamera = "rtsp://192.168.0.90:554/onvif1";
+    private const string urlToCamera = "rtsp://admin:123456@192.168.15.86:554/H264?ch=1&subtype=0";
 //    private const string urlToCamera = "rtsp://MirrorBoy:123454321@192.168.0.189/h264Preview_01_main";
-    private const string pathToSaveImage = @"D:\Downloads\";
+    private const string pathToSaveImage = @"C:\Temp\";
     private const int streamWidth = 2560;//240;
     private const int streamHeight = 1440;//160;
 
