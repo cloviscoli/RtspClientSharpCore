@@ -1,5 +1,5 @@
-# C# RTSP Client for .NET Core 3.0 / .NET 5.0
-This repo contains fork (https://github.com/BogdanovKirill/RtspClientSharp  for .NET Standard 2.0) of C# RTSP client implementation for .Net Core 3.0
+# C# RTSP Client for .NET 8.0
+This repo contains fork (https://github.com/i-TechSoftware/RtspClientSharpCore) of C# RTSP client implementation for .Net 8.0
 
 Please read the original documentation at: https://github.com/BogdanovKirill/RtspClientSharp/blob/master/README.md
 
@@ -16,8 +16,8 @@ If the test client reports a connection failure, check the availability of this 
 ## Linux dependencies
 
 - Installed package ffmpeg version 4.2.1
-- Installed package dotnet-sdk 3.0
-- Installed package dotnet-runtime 3.0
+- Installed package dotnet-sdk 8.0
+- Installed package dotnet-runtime 8.0
 - Installed package libgdiplus
 
 ## Test on Linux
