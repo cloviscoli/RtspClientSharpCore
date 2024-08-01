@@ -33,10 +33,6 @@
 	</PropertyGroup>
 
 	<ItemGroup>
-		<PackageReference Include="System.Drawing.Common" Version="8.0.7" />
-	</ItemGroup>
-
-	<ItemGroup>
 		<ProjectReference Include="..\RtspClientSharpCore\RtspClientSharpCore.csproj" />
 	</ItemGroup>
 
@@ -44,6 +40,18 @@
 		<None Update="liblibffmpeghelper.a">
 			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
 		</None>
+	</ItemGroup>
+	
+	<ItemGroup>
+		<None Include="runtimes\**\*.*">
+			<Pack>true</Pack>
+			<PackagePath>runtimes</PackagePath>
+			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+	</ItemGroup>
+	
+	<ItemGroup>
+	  <PackageReference Include="System.Drawing.Common" Version="8.0.7" />
 	</ItemGroup>
 
 </Project>
